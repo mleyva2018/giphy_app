@@ -4,7 +4,8 @@
   "description": "App that presents a random gif from any topic of the user's choice.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "gif",
