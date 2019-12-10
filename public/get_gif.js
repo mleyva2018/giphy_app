@@ -8,7 +8,7 @@ async function getWord(e) {
     const json = await response.json();
     //console.log(word);
     let originalUrl = json.data.images.original.url;
-    let output = '<img src=' + originalUrl + ' alt="gif">';
+    let output = '<img src=' + originalUrl + ' alt="gif" width="330rem">';
     document.getElementById('output').innerHTML = output;
     //console.log(data);
 }
